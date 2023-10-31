@@ -1,0 +1,91 @@
+*{
+   padding: 0;
+   margin:0;
+   font-family: 'Poppins', sans-serif;
+   text-decoration: none;
+}
+.fixed-image{
+   margin: 0 3rem;
+   height:600px;
+   background-image: url("https://www.inergo.gr/wp-content/uploads/2022/05/new-test1-scaled.jpg");
+   background-size: cover;
+   background-attachment: fixed;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* align-items: center; */
+   overflow: auto;
+   flex: 1;
+}
+.fixed-image h1{
+   text-align: center;
+   color: black;
+   font-size: 3rem;
+}
+/* .fixed-image-container{
+   height:90%;
+   background-color: aqua;
+   display: flex;
+   justify-content: space-between;
+   align-items:baseline;
+   background-color: brown;
+   flex-wrap: wrap;
+}
+.element .element-icon{
+   display: flex;
+   flex-direction:row;
+   align-items:flex-start;
+   background-color: yellow;
+   margin-right: 1.5rem;
+}
+.fixed-image-container .element i{
+   font-size:30px;
+   border-radius: 50%;
+   background-color: rgb(100, 100, 100);
+   color: rgba(255,255,255,0.9);
+   padding:0.75rem 0.515rem;
+   position:static;
+}
+.fixed-image-container .element{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex:1;
+   height:33%;
+}
+.fixed-image-container .element-content{
+   display: flex;
+   flex-direction:column;
+   align-items: flex-start;
+   justify-content: center;
+   flex-wrap: wrap;
+} */
+.fixed-image .fixed-image-container{
+   background-color: aqua;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: space-around;
+   justify-content: space-around;
+}
+.fixed-image-container .element{
+   background-color: blueviolet;
+   /* margin: 0 10rem; */
+}
+/* .fixed-image-container .element .element-content{
+   width:50%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
